@@ -1,0 +1,5 @@
+dataset: UCI Adult
+dataset_sha256: e0680ab06173c9b5f90981698b014a076ef7cb26a3059e6e71c5ff12d84efddb
+random_state: 42
+test_size: 0.3
+version: 2
