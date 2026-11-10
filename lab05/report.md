@@ -3,7 +3,7 @@
 This report documents the work completed in Lab 05.
 
 ## Summary
-Summary1. Value Node Design: Implemented a core Value class that stores data values, gradient accumulations, parent nodes, and local backward derivative functions to build a dynamic computation graph. 
+1. Value Node Design: Implemented a core Value class that stores data values, gradient accumulations, parent nodes, and local backward derivative functions to build a dynamic computation graph. 
 2. Graph Construction & Operations: Implemented fundamental operators (addition, multiplication, powers, and ReLU) that dynamically construct computation graphs during the forward pass.   
 3. Backpropagation Engine: Implemented the backward pass mechanism by topologically sorting the graph, initializing the root gradient to 1, traversing nodes in reverse order, and correctly accumulating gradients rather than overwriting them.   
 4. Gradient Verification: Verified custom autograd engine gradients against PyTorch autograd and finite-difference numerical estimates on a composite function, ensuring the maximum absolute difference remains below $1e-6$.   
