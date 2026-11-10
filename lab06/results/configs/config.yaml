@@ -1,0 +1,9 @@
+batch_size: 64
+checkpoint_dir: ./checkpoints
+epochs: 10
+lr: 0.001
+mlflow_experiment: lab06_training_pipeline
+num_workers: 2
+optimizer: Adam
+scheduler: StepLR
+seed: 42
