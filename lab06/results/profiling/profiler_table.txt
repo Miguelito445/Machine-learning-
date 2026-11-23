@@ -1,0 +1,20 @@
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  
+                                                   Name    Self CPU %      Self CPU   CPU total %     CPU total  CPU time avg    # of Calls  
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  
+                                          backward_pass         1.41%     262.623ms        50.42%        9.407s      21.876ms           430  
+                                           forward_pass         1.81%     337.257ms        38.95%        7.267s      16.900ms           430  
+autograd::engine::evaluate_function: ConvolutionBack...         0.09%      16.560ms        24.37%        4.547s       5.287ms           860  
+                                   ConvolutionBackward0         0.07%      13.064ms        24.28%        4.530s       5.268ms           860  
+                             aten::convolution_backward        24.12%        4.500s        24.21%        4.517s       5.252ms           860  
+                                           aten::conv2d         0.04%       8.302ms        13.75%        2.565s       2.983ms           860  
+                                      aten::convolution         0.13%      24.886ms        13.70%        2.557s       2.973ms           860  
+                                     aten::_convolution         0.08%      14.161ms        13.57%        2.532s       2.944ms           860  
+                               aten::mkldnn_convolution        13.42%        2.504s        13.50%        2.518s       2.928ms           860  
+                                       aten::max_pool2d         0.04%       7.194ms        10.61%        1.979s       2.301ms           860  
+                          aten::max_pool2d_with_indices        10.57%        1.972s        10.57%        1.972s       2.293ms           860  
+     autograd::engine::evaluate_function: ReluBackward0         0.10%      18.484ms         8.69%        1.621s       1.257ms          1290  
+                                          ReluBackward0         0.08%      15.663ms         8.59%        1.602s       1.242ms          1290  
+                               aten::threshold_backward         8.51%        1.587s         8.51%        1.587s       1.230ms          1290  
+                                       aten::batch_norm         0.03%       6.367ms         7.78%        1.451s       1.687ms           860  
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  
+Self CPU time total: 18.658s

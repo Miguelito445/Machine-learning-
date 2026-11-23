@@ -1,0 +1,27 @@
+[
+  {
+    "num_workers": 0,
+    "throughput_samples_per_sec": 2058.05,
+    "elapsed_sec": 6.219
+  },
+  {
+    "num_workers": 1,
+    "throughput_samples_per_sec": 1532.07,
+    "elapsed_sec": 8.355
+  },
+  {
+    "num_workers": 2,
+    "throughput_samples_per_sec": 1109.22,
+    "elapsed_sec": 11.54
+  },
+  {
+    "num_workers": 4,
+    "throughput_samples_per_sec": 689.55,
+    "elapsed_sec": 18.563
+  },
+  {
+    "num_workers": 8,
+    "throughput_samples_per_sec": 393.56,
+    "elapsed_sec": 32.524
+  }
+]

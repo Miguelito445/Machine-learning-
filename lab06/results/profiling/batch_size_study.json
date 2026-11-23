@@ -1,0 +1,32 @@
+[
+  {
+    "batch_size": 32,
+    "throughput_samples_per_sec": 1260.75,
+    "peak_memory_mb": 1776.5,
+    "val_acc_5ep": 91.92
+  },
+  {
+    "batch_size": 64,
+    "throughput_samples_per_sec": 1689.87,
+    "peak_memory_mb": 1778.9,
+    "val_acc_5ep": 91.82
+  },
+  {
+    "batch_size": 128,
+    "throughput_samples_per_sec": 1949.76,
+    "peak_memory_mb": 1781.53,
+    "val_acc_5ep": 91.92
+  },
+  {
+    "batch_size": 256,
+    "throughput_samples_per_sec": 2095.02,
+    "peak_memory_mb": 1857.62,
+    "val_acc_5ep": 91.5
+  },
+  {
+    "batch_size": 512,
+    "throughput_samples_per_sec": 2172.26,
+    "peak_memory_mb": 2003.77,
+    "val_acc_5ep": 91.2
+  }
+]

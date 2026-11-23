@@ -1,0 +1,10 @@
+{
+  "data_loading_pct": 28.72,
+  "forward_pass_pct": 29.06,
+  "backward_pass_pct": 37.61,
+  "optimizer_step_pct": 4.6,
+  "data_loading_sec": 7.1646,
+  "forward_pass_sec": 7.2493,
+  "backward_pass_sec": 9.3809,
+  "optimizer_step_sec": 1.1475
+}
